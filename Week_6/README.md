@@ -118,6 +118,7 @@ A local Streamlit prototype was developed to demonstrate model inference. The ap
 The following screenshot shows the local Streamlit prototype developed for stroke risk prediction. Users can enter patient information, obtain a predicted stroke probability, and receive a corresponding risk category.
 
 ![Streamlit Interface](images/streamlit_interface.png)
+
 ## Tech Stack
 - **Data & Analysis:** Python, Pandas, NumPy, SciPy
 - **Generative Modeling:** SDV (CTGAN)
@@ -126,6 +127,7 @@ The following screenshot shows the local Streamlit prototype developed for strok
 - **Application:** Streamlit, pyngrok, joblib
 
 ## Project Structure
+
 ```text
 Week_6/
 ├── AIML_week_6_1_EDA_git.ipynb
@@ -133,15 +135,38 @@ Week_6/
 ├── AIML_week_6_3_Model_Training_&_Visualization_.ipynb
 ├── AIML_week_6_4_streamlit_stroke.ipynb
 ├── Maaz_Mahboob_Week 6 report.pdf
+├── images/
+│   └── streamlit_interface.png
 └── README.md
 ```
 
+### Repository Contents
+
+| File | Description |
+|------|-------------|
+| **README.md** | Project overview, methodology, evaluation, limitations, and usage guide |
+| **Maaz_Mahboob_Week 6 report.pdf** | Complete technical report documenting the methodology, experiments, and observations |
+| **AIML_week_6_1_EDA_git.ipynb** | Exploratory data analysis, preprocessing, and feature engineering |
+| **AIML_week_6_2_CTGAN_Training_git.ipynb** | CTGAN training and synthetic data generation |
+| **AIML_week_6_3_Model_Training_&_Visualization_.ipynb** | Machine learning experiments and model evaluation |
+| **AIML_week_6_4_streamlit_stroke.ipynb** | Streamlit inference prototype |
+
+## Project Report
+
+A detailed technical report documenting the project objectives, methodology, experimental setup, model evaluation, and key observations is included in this repository.
+
+📄 **Read the complete technical report:** [Week 6 Technical Report](Maaz_Mahboob_Week%206%20report.pdf)
+
 ## How to Explore
-We recommend reviewing the notebooks sequentially:
-1. `AIML_week_6_1_EDA_git.ipynb`
-2. `AIML_week_6_2_CTGAN_Training_git.ipynb`
-3. `AIML_week_6_3_Model_Training_&_Visualization_.ipynb`
-4. `AIML_week_6_4_streamlit_stroke.ipynb`
+
+To understand the complete workflow, we recommend exploring the project in the following order:
+
+1. Read this README for a high-level overview of the project.
+2. Review the 📄 [Technical Report](Maaz_Mahboob_Week%206%20report.pdf) for detailed methodology, experiments, and observations.
+3. Explore **AIML_week_6_1_EDA_git.ipynb** to understand data preprocessing and exploratory analysis.
+4. Continue with **AIML_week_6_2_CTGAN_Training_git.ipynb** to see how synthetic stroke samples were generated and validated.
+5. Review **AIML_week_6_3_Model_Training_&_Visualization_.ipynb** for model training and performance evaluation.
+6. Finally, open **AIML_week_6_4_streamlit_stroke.ipynb** to explore the Streamlit inference prototype.
 
 *Reproducibility Note:* This project was originally developed in Google Colab and utilizes hard-coded Google Drive paths alongside ngrok execution strategies. There is currently no `requirements.txt`. To run this repository locally, users will need to:
 - Update the hard-coded file paths in the notebooks.

@@ -61,7 +61,7 @@ A comprehensive report summarizing the internship objectives, weekly progress, m
 
 | Week | Topic | Key Learning | Deliverables |
 | :--- | :--- | :--- | :--- |
-| **Week 1** | Exploratory Data Analysis | Data preprocessing, feature encoding, and outlier management (winsorization). Extracted actionable univariate and multivariate clinical insights. | [Disease Diagnosis EDA](GNCIPL-AI-ML%20Week%201%20Assignment.ipynb) |
+| **Week 1** | Exploratory Data Analysis | Data preprocessing, feature encoding, and outlier management (winsorization). Extracted actionable univariate and multivariate clinical insights. | [Disease Diagnosis EDA](AIML_week_1.ipynb) |
 | **Week 2** | Statistical Validation | Parametric (t-tests) and non-parametric (Chi-square) hypothesis testing to rigorously validate risk factor associations. | [Heart Disease Risk Analysis](AI_ML_week2_.ipynb) |
 | **Week 3** | Supervised Learning | Machine learning classification using Logistic Regression, Decision Trees, and Random Forest. Model evaluation via Precision, Recall, and F1-score. | [Bank Customer Churn Prediction](AIML_week_3.ipynb) |
 | **Week 4** | Unsupervised Learning | Feature engineering for RFM analysis. Applying and validating K-Means clustering (Silhouette Score) to identify customer personas. | [Customer Segmentation](AIML_week4.ipynb) |
@@ -124,7 +124,7 @@ Crucially, addressing severe class imbalances with Generative AI (CTGAN) highlig
 
 To understand the chronological learning path and the evolution of complexity, we recommend exploring the repository in the following order:
 
-1. **Week 1:** [Exploratory Data Analysis](GNCIPL-AI-ML%20Week%201%20Assignment.ipynb)
+1. **Week 1:** [Exploratory Data Analysis](AIML_week_1.ipynb)
 2. **Week 2:** [Statistical Validation](AI_ML_week2_.ipynb)
 3. **Week 3:** [Supervised Learning](AIML_week_3.ipynb)
 4. **Week 4:** [Unsupervised Learning](AIML_week4.ipynb)

@@ -29,21 +29,22 @@ This repository documents a six-week AI/ML internship at Global Next Consulting 
 
 ```text
 .
-├── AIML_week_3.ipynb
-├── AIML_week_5.ipynb
-├── AIML_week4.ipynb
-├── AI_ML_week2_.ipynb
-├── Final Report.pdf
-├── GNCIPL-AI-ML Week 1 Assignment.ipynb
 ├── README.md
+├── Final Report.pdf
+├── AIML_week_1.ipynb
+├── AI_ML_week2_.ipynb
+├── AIML_week_3.ipynb
+├── AIML_week4.ipynb
+├── AIML_week_5.ipynb
 └── Week_6/
+    ├── README.md
     ├── AIML_week_6_1_EDA_git.ipynb
     ├── AIML_week_6_2_CTGAN_Training_git.ipynb
     ├── AIML_week_6_3_Model_Training_&_Visualization_.ipynb
     ├── AIML_week_6_4_streamlit_stroke.ipynb
     ├── Maaz_Mahboob_Week 6 report.pdf
-    ├── README.md
     └── images/
+        └── streamlit_interface.png
 ```
 
 ---

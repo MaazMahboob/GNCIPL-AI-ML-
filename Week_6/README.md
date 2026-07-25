@@ -114,8 +114,10 @@ A local Streamlit prototype was developed to demonstrate model inference. The ap
 - Risk categorization (Low, Medium, High)
 
 ### Interface Preview
-*(UI Preview placeholder—future visual update planned)*
 
+The following screenshot shows the local Streamlit prototype developed for stroke risk prediction. Users can enter patient information, obtain a predicted stroke probability, and receive a corresponding risk category.
+
+![Streamlit Interface](images/streamlit_interface.png)
 ## Tech Stack
 - **Data & Analysis:** Python, Pandas, NumPy, SciPy
 - **Generative Modeling:** SDV (CTGAN)
